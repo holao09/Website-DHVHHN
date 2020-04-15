@@ -175,7 +175,7 @@ a {
     .home-catolog-style{
       margin-left: 0px;
       .tittle-box{
-        border-bottom: 3px solid #BE171D;
+        border-bottom: 1px solid #BE171D;
         .tittle-box--a{
           background-color: #BE171D;
           color: #ffffff;
@@ -222,13 +222,14 @@ a {
 }
 //footer////////////////////////////////////@extend
 .footer{
+  font-family: Arial, Helvetica, sans-serif;
   padding: 50px;
   padding-bottom: 0px;
   color: #fff;
   .col{
     p{
+      font-size: 14px;
       content: "\eb88";
-      font-family: IcoFont;
       color: #ffffff;
       margin-right: 5px;
     }
@@ -240,8 +241,8 @@ a {
       padding-left: 0px;
       list-style-type: none;
         li a{
+          font-size: 14px;
           content: "\eb88";
-          font-family: IcoFont;
           color: #ffffff;
           margin-right: 5px;
         }
@@ -268,4 +269,25 @@ a {
       text-decoration: none;
     }
   }
+}
+//edit
+h1{
+  font-size: 1.5rem!important;
+}
+.form-control{
+  font-size: 14px;
+}
+button{
+  margin-top: 4px;
+  font-size: 14px;
+}
+.containerr .catalog ul li {
+  margin: 7% 0;
+}
+.card-item{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+a:hover{
+  color: #6b1105!important;
 }

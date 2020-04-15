@@ -17,9 +17,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background: #871d0f;
 }
 
@@ -227,8 +227,12 @@ a {
   color: #000;
 }
 
+.containerr .row .home-catolog-style {
+  margin-left: 0px;
+}
+
 .containerr .row .home-catolog-style .tittle-box {
-  border-bottom: 3px solid #BE171D;
+  border-bottom: 1px solid #BE171D;
 }
 
 .containerr .row .home-catolog-style .tittle-box .tittle-box--a {
@@ -238,6 +242,7 @@ a {
 }
 
 .containerr .row .home-catolog-style .container-box {
+  margin-top: 25px;
   font-size: 14px;
 }
 
@@ -282,6 +287,7 @@ a {
 }
 
 .footer {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 50px;
   padding-bottom: 0px;
   color: #fff;
@@ -289,8 +295,8 @@ a {
 }
 
 .footer .col p {
+  font-size: 14px;
   content: "\eb88";
-  font-family: IcoFont;
   color: #ffffff;
   margin-right: 5px;
 }
@@ -306,8 +312,8 @@ a {
 }
 
 .footer .col .col-link ul li a {
+  font-size: 14px;
   content: "\eb88";
-  font-family: IcoFont;
   color: #ffffff;
   margin-right: 5px;
 }
@@ -338,5 +344,31 @@ a {
 .copy .copy-p a {
   color: #ffffff;
   text-decoration: none;
+}
+
+h1 {
+  font-size: 1.5rem !important;
+}
+
+.form-control {
+  font-size: 14px;
+}
+
+button {
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.containerr .catalog ul li {
+  margin: 7% 0;
+}
+
+.card-item {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+a:hover {
+  color: #6b1105 !important;
 }
 /*# sourceMappingURL=style.css.map */
